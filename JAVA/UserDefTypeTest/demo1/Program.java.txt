@@ -1,0 +1,15 @@
+class Program{
+	private static void adjust(Investment inv){
+		inv.allowRisk(inv.totalPayment()<=500000);
+	}
+
+	public static void main(String[] args){
+	double p= Double.parseDouble(args[0]);
+	int n= Integer.parseInt(artgs[1]);
+	      	System.out.println("Future value in risk-free investment:  "+ myinv.futureValue());
+        myinv.allowRisk(true);
+        	System.out.println("Future value in low-risk investment :  "+ myinv.futureValue());
+        adjust(myinv); 
+        	System.out.printf("Future value in smart investment    : "  + myinv.futureValue());
+	}
+}

@@ -1,0 +1,25 @@
+class Investment{
+	private double installment;
+	private int duration;
+	private boolean risk;
+
+	public Investment(double amount,int yrs){
+		installment =amount;
+		duration = yrs;
+		risk= false;
+
+	}
+	
+	public void allowRisk(boolean yes){
+		risk =yes;
+	}
+	
+	public double totalPayment(){
+		return installment *duration;
+	}
+	
+	public double futureValue(){
+		double i= risk ?0.08:0.06;
+		return (installment/i)*(Math.pow(1+i,duration)-1);
+	}
+}
