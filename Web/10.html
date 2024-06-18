@@ -1,0 +1,37 @@
+<!-- implementation of 3rd party font -->
+
+<h1 class="animate__animated animate__bounce animate__faster">Google</h1>
+<h1 class="animate__animated animate__bounce">An animated element</h1>
+<div class="animate__animated animate__bounce animate__delay-1s">Example</div>
+<img src="asset/NO0A1076.JPG" alt="Moon">
+<img src="asset/NO0A1076.JPG" alt="Moon">
+ <p class="animate__animated animate__bounce animate__delay-2s">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta repellat quam ab tenetur deserunt debitis excepturi rem incidunt, perspiciatis laborum eum, expedita commodi corrupti maiores, praesentium quisquam quod minus illo.
+ </p>
+
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+ <style>@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+
+div{
+    display: flex;
+}
+h1,p{
+    font-family:Playwrite;
+}
+img{
+    animation: a1 infinite linear 10s;
+}
+@keyframes a1{
+       
+        from{margin-left: 0;
+        transform: rotate(0deg);}
+        /* to end the animation  */
+        to{margin-left: 2000px;
+            transform: rotate(400deg);
+            border-radius: 50%;
+            box-shadow: 5px 10px 20px rgb(255, 0, 81);}
+   }
+</style>

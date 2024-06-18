@@ -1,0 +1,28 @@
+<div style="border: solid; width: 200px; height: 200px; padding: 10px;">
+<h1>hello</h1>
+</div>
+<style>
+    div{
+        border-radius: 30px;
+        margin-top: 50px;
+    
+        background-color: aquamarine;
+        /* 1st - left to right
+        2 left to right
+        3 blur  */
+        box-shadow: 5px 10px 20px rgb(18, 18, 17);
+        /* transform: rotate(10deg); */
+        /* forwards say it would stop at last position  */
+        animation: a1 forwards 10s;
+
+    }
+    @keyframes a1{
+        /* start animation  */
+        from{margin-left: 0;
+        transform: rotate(0deg);}
+        /* to end the animation  */
+        to{margin-left: 500px;
+            transform: rotate(400deg);
+            box-shadow: 5px 10px 20px rgb(225, 204, 13);}
+   }
+</style>

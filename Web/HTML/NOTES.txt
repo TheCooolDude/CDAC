@@ -1,0 +1,30 @@
+html- content
+
+text 
+media - image/videos
+
+css- presentation
+------------------------------ 
+HTML (Hyper Text Markup Language) it is use to perform 2 format-
+    1.text format
+    2.media format
+tag/element/
+
+
+#Vertical Format data----->
+
+* Header- 6 header are there H1 is bigger and h6 is smallest text font
+* List- there 2 list -
+        1. order list(<ol>...</ol>)
+        2.under list (<ul>...</ul>)
+* ID and  Class
+     Id -#
+     class-  .
+     multiple classes can be imoplemented on a single element
+
+3Ways apllied css 
+*internal css
+*external css
+*inline css
+
+

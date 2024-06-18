@@ -1,0 +1,29 @@
+
+    .container {
+        width: 1200px;
+        height: 1000px;
+   
+        border: solid auto;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left :auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .planet{
+        width: 25%;
+        height: 185px;
+        border: 5px solid rgb(202, 58, 58);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left :15px;
+        margin-right :15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img {
+       
+        width: 100%;
+        height:190px ;
+    }
